@@ -1,0 +1,26 @@
+Course:
+    name,
+    gradeLevel,
+    difficulty (rand num + gradeLevel),
+    teacher,
+    random effect to student
+    
+
+    difficulty = gradelevel + random num(1-5)
+    10 - 17
+    (10 11) (12 13 14) (15 16 17)
+     easy     normal      hard
+
+Student:
+    name,
+    age,
+    gradelevel,
+    str,
+    int,
+    cha
+
+events
+ 15% - disaster
+ 25% - funny
+ 25% - safe
+ 35% - nothing
