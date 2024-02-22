@@ -1,5 +1,15 @@
 import random
 
+first_names = [
+    "Emily", "Jacob", "Olivia", "Michael", "Sophia", "Ethan", "Ava", "Matthew", "Isabella", "William",
+    "Mia", "Alexander", "Charlotte", "James", "Amelia", "Benjamin", "Harper", "Daniel", "Evelyn", "Joseph",
+    "Abigail", "Samuel", "Emily", "David", "Elizabeth", "Henry", "Sofia", "Jackson", "Madison", "Andrew",
+    "Avery", "Sebastian", "Ella", "Gabriel", "Scarlett", "Carter", "Grace", "Ryan", "Lily", "John", "Chloe",
+    "Luke", "Victoria", "Oliver", "Aria", "Jonathan", "Natalie", "Dylan", "Layla", "Isaac", "Addison", "Nathan",
+    "Brooklyn", "Caleb", "Zoe", "Anthony", "Audrey", "Christian", "Savannah", "Landon", "Hannah", "Isaac", "Zoey",
+    "Thomas", "Penelope", "Eli", "Leah", "Aaron", "Stella", "Connor", "Aurora", "Cameron", "Claire", "Hunter", "Riley"
+]
+
 class Student:
     def __init__(self, grade_level = 9):
         self.name = list_picker(first_names)

@@ -1,6 +1,7 @@
 # INCLUDES
 
 import random
+from student import Student
 
 # VARS
 
@@ -29,15 +30,15 @@ last_names = [
 teacher_titles = [
     "Mr.", "Mrs.", "Ms.", "Miss", "Dr.", "Professor"
 ]
-first_names = [
-    "Emily", "Jacob", "Olivia", "Michael", "Sophia", "Ethan", "Ava", "Matthew", "Isabella", "William",
-    "Mia", "Alexander", "Charlotte", "James", "Amelia", "Benjamin", "Harper", "Daniel", "Evelyn", "Joseph",
-    "Abigail", "Samuel", "Emily", "David", "Elizabeth", "Henry", "Sofia", "Jackson", "Madison", "Andrew",
-    "Avery", "Sebastian", "Ella", "Gabriel", "Scarlett", "Carter", "Grace", "Ryan", "Lily", "John", "Chloe",
-    "Luke", "Victoria", "Oliver", "Aria", "Jonathan", "Natalie", "Dylan", "Layla", "Isaac", "Addison", "Nathan",
-    "Brooklyn", "Caleb", "Zoe", "Anthony", "Audrey", "Christian", "Savannah", "Landon", "Hannah", "Isaac", "Zoey",
-    "Thomas", "Penelope", "Eli", "Leah", "Aaron", "Stella", "Connor", "Aurora", "Cameron", "Claire", "Hunter", "Riley"
-]
+# first_names = [
+#     "Emily", "Jacob", "Olivia", "Michael", "Sophia", "Ethan", "Ava", "Matthew", "Isabella", "William",
+#     "Mia", "Alexander", "Charlotte", "James", "Amelia", "Benjamin", "Harper", "Daniel", "Evelyn", "Joseph",
+#     "Abigail", "Samuel", "Emily", "David", "Elizabeth", "Henry", "Sofia", "Jackson", "Madison", "Andrew",
+#     "Avery", "Sebastian", "Ella", "Gabriel", "Scarlett", "Carter", "Grace", "Ryan", "Lily", "John", "Chloe",
+#     "Luke", "Victoria", "Oliver", "Aria", "Jonathan", "Natalie", "Dylan", "Layla", "Isaac", "Addison", "Nathan",
+#     "Brooklyn", "Caleb", "Zoe", "Anthony", "Audrey", "Christian", "Savannah", "Landon", "Hannah", "Isaac", "Zoey",
+#     "Thomas", "Penelope", "Eli", "Leah", "Aaron", "Stella", "Connor", "Aurora", "Cameron", "Claire", "Hunter", "Riley"
+# ]
 student_list = []
 
 # Events
